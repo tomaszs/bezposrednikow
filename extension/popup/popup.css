@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  margin: 0;
+  padding: 12px 14px 14px;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  font-size: 13px;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.list-filter {
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 6px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.add-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.add-form button,
+.blocklist button {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #0f766e;
+  color: #fff;
+}
+
+.add-form button:hover,
+.blocklist button:hover {
+  background: #0d9488;
+}
+
+.blocklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.blocklist li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.blocklist li:last-child {
+  border-bottom: none;
+}
+
+.blocklist .key {
+  font-weight: 600;
+}
+
+.blocklist .meta {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.blocklist button {
+  background: #e11d48;
+  flex-shrink: 0;
+}
+
+.blocklist button:hover {
+  background: #be123c;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #0f766e;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.empty {
+  padding: 16px;
+  text-align: center;
+  color: #64748b;
+}
+
+.io-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.secondary-btn {
+  flex: 1;
+  border: 1px solid #0f766e;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #fff;
+  color: #0f766e;
+}
+
+.secondary-btn:hover {
+  background: #f0fdfa;
+}
+
+.io-status {
+  margin: 6px 0 0;
+  font-size: 11px;
+  line-height: 1.35;
+  color: #475569;
+}
+
+.io-status.error {
+  color: #be123c;
+}

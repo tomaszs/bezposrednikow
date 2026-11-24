@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bezpośredników</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bezpośredników</h1>
+      <label class="toggle">
+        <input type="checkbox" id="enabled" />
+        <span>Włączone</span>
+      </label>
+    </header>
+
+    <form id="add-form" class="add-form">
+      <input id="new-entry" type="text" placeholder="Nazwa firmy lub klucz filtra" autocomplete="off" />
+      <button type="submit">Dodaj</button>
+    </form>
+
+    <input
+      id="blocklist-filter"
+      type="search"
+      class="list-filter"
+      placeholder="Szukaj na liście…"
+      autocomplete="off"
+      spellcheck="false"
+    />
+
+    <ul id="blocklist" class="blocklist"></ul>
+
+    <div class="io-actions">
+      <button type="button" id="export-btn" class="secondary-btn">Eksportuj</button>
+      <button type="button" id="import-btn" class="secondary-btn">Importuj</button>
+      <input type="file" id="import-file" accept=".json,application/json" hidden />
+    </div>
+    <p id="io-status" class="io-status" role="status" hidden></p>
+
+    <script src="../shared/normalize.js"></script>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>

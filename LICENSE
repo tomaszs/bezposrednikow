@@ -1,0 +1,90 @@
+# Licencja użytkowania oprogramowania „Bezpośredników”
+
+Copyright (c) 2026 tomasz smykowski. Wszelkie prawa zastrzeżone.
+
+Niniejszy dokument określa warunki dostępu do kodu źródłowego i innych materiałów
+związanych z oprogramowaniem „Bezpośredników” (dalej: „Oprogramowanie”), udostępnionych
+w repozytorium publicznym wyłącznie w celach informacyjnych i transparentności projektu.
+
+## 1. Brak udzielenia licencji
+
+O ile Autor nie wyrazi **pisemnej**, indywidualnej zgody, **nie udziela się żadnej licencji**
+ani uprawnienia do Oprogramowania lub jakiejkolwiek jego części. Dostęp do repozytorium
+**nie oznacza** zgody na użytkowanie, kopiowanie, modyfikację, dystrybucję, sublicencjonowanie,
+publikację ani tworzenie utworów zależnych.
+
+## 2. Zakazane działania
+
+Bez pisemnej zgody Autora zabrania się w szczególności:
+
+1. **Używania** Oprogramowania w jakimkolwiek celu (w tym prywatnym, komercyjnym,
+   edukacyjnym, badawczym lub administracyjnym), w tym instalacji i uruchamiania
+   poza wyraźnie dozwolonym przez Autora zakresem.
+2. **Kopiowania, modyfikowania, adaptowania, tłumaczenia** lub tworzenia utworów
+   zależnych na podstawie Oprogramowania lub jego części.
+3. **Dystrybucji, udostępniania, sprzedaży, wypożyczania, leasingu** lub innego
+   przekazywania Oprogramowania lub kopii w jakiejkolwiek formie.
+4. **Dekompilacji, deasemblacji, inżynierii wstecznej** lub obchodzenia zabezpieczeń,
+   o ile obowiązujące prawo nie stanowi inaczej w ścisłym zakresie wyłącznie wymaganym
+   przepisami bezwzględnie obowiązującymi (bez rozszerzania tego wyjątku).
+5. **Wykorzystania** treści repozytorium (kod, dokumentacja, zasoby, metadane,
+   struktury plików, listy, dane osadzone w kodzie) do:
+   - trenowania, dostrajania, ewaluacji lub testowania modeli sztucznej inteligencji,
+     systemów uczenia maszynowego, systemów generatywnych lub automatycznych asystentów;
+   - budowy, uzupełniania lub publikowania zbiorów danych (datasetów), korpusów
+     lub repozytoriów treści przeznaczonych do uczenia maszynowego;
+   - automatycznego pozyskiwania, indeksowania, „scrapingu” lub agregacji treści
+     w celach analitycznych, komercyjnych lub modelowych, także przez boty lub usługi
+     stron trzecich.
+6. **Przetwarzania** (w rozumieniu powszechnie stosowanym w IT i RODO) treści
+   repozytorium w sposób sprzeczny z niniejszą licencją, w tym przekazywania ich
+   podmiotom trzecim w celach wymienionych w pkt 5.
+7. **Usuwania lub zatajania** informacji o prawach autorskich, niniejszej licencji
+   lub oznaczeń własności.
+
+## 3. Dozwolone wyłącznie za pisemną zgodą
+
+Jedynym sposobem legalnego użytkowania Oprogramowania jest **uprzednia pisemna zgoda Autora**
+(określająca zakres, czas, terytorium i ewentualną odpłatność). Brak odpowiedzi lub
+milczenie Autora **nie** stanowi zgody.
+
+## 4. Kara umowna
+
+Za każde **pojedyncze naruszenie** któregokolwiek z postanowień niniejszej licencji (w tym
+każde odrębne faktyczne wykorzystanie, kopię, dystrybucję, przetwarzanie do uczenia maszynowego
+lub inne działanie sprzeczne z Licencją) naruszający zapłaci Autorowi **karę umowną
+w wysokości 5 000 (pięć tysięcy) dolarów amerykańskich (USD)**.
+
+Kara umowna jest należna:
+- za każde naruszenie odrębnie (np. każdy odrębny przypadek wykorzystania treści do trenowania
+  modelu, każda odrębna dystrybucja kopii),
+- niezależnie od tego, czy Autor poniósł szkodę,
+- bez uszczerbku dla prawa Autora do dochodzenia odszkodowania przewyższającego wysokość kary
+  umownej oraz innych roszczeń przewidzianych prawem.
+
+Strony ustalają, że wysokość kary umownej odzwierciedla przewidywalny charakter szkody
+i ma charakter dyscyplinujący. Naruszający, powołując się na przepisy prawa, może żądać
+ustalenia odpowiedniości kary wyłącznie w granicach dopuszczalnych przepisami bezwzględnie
+obowiązującymi.
+
+## 5. Postanowienia ogólne
+
+Oprogramowanie jest udostępniane „tak jak jest”, bez jakiejkolwiek gwarancji. Autor nie
+ponosi odpowiedzialności za szkody wynikłe z prób użytkowania bez zgody.
+
+W sprawach nieuregulowanych stosuje się prawo właściwe dla Autora. Właściwe są sądy
+wg miejsca zamieszkania / siedziby Autora, o ile bezwzględnie obowiązujące przepisy
+nie stanowią inaczej.
+
+## 6. Kontakt
+
+W celu uzyskania pisemnej zgody na użytkowanie skontaktuj się z Autorem przez kanały
+publicznie podane w profilu GitHub użytkownika **tomaszs** lub w repozytorium projektu
+(sekcja About / Issues), o ile Autor wskaże tam dedykowany adres kontaktowy.
+
+---
+
+**Akceptacja:** Pobranie, klonowanie, przeglądanie, kopiowanie lub jakiekolwiek inne
+działanie wobec Oprogramowania lub treści repozytorium oznacza, że podmiot działający
+w pełni zapoznał się z niniejszą licencją i **bez zastrzeżeń ją akceptuje**. W razie
+braku akceptacji należy niezwłocznie zaprzestać korzystania i usunąć wszelkie kopie.

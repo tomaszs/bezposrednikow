@@ -1,0 +1,26 @@
+{
+  "name": "bezposrednikow",
+  "version": "2.3.0",
+  "description": "Chrome extension: hide recruiter and agency job listings on Pracuj.pl, Just Join IT, LinkedIn Jobs",
+  "main": "index.js",
+  "scripts": {
+    "test:match": "node scripts/test-match.mjs",
+    "test:linkedin-dom": "node scripts/test-linkedin-dom.mjs",
+    "test:justjoin-dom": "node scripts/test-justjoin-dom.mjs",
+    "test:pracuj2-dom": "node scripts/test-pracuj2-dom.mjs",
+    "test:website": "node scripts/test-website.mjs",
+    "test:e2e": "node scripts/e2e-injected.mjs",
+    "test:e2e:extension": "node scripts/e2e-extension.mjs",
+    "discover": "node scripts/discover-agencies.mjs",
+    "build:blocklist": "node scripts/build-blocklist.mjs",
+    "build:curated": "node scripts/generate-curated-blocklist.mjs",
+    "build:extension": "node scripts/build-extension.mjs"
+  },
+  "keywords": [],
+  "author": "tomasz smykowski",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "type": "commonjs",
+  "devDependencies": {
+    "puppeteer": "^25.13.0"
+  }
+}

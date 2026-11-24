@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Extension build output (npm run build:extension)
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Puppeteer / browser caches
+.cache/
+
+# HTML fixtures from logged-in job sites (tracking URLs, profile assets, session state)
+przyklady/*.txt
+przyklady/*.html
+
+# Local scrape / crawl dumps (regenerate with scripts/*.mjs)
+scripts/debug-page.html
+scripts/angular-companies-page1.json
+scripts/discover-output.json
+scripts/blocklist-candidates.json
+
+# One-off analysis output
+test-scripts/*.html
+test-scripts/justjoin-snippet-*
