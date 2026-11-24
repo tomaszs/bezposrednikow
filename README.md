@@ -14,35 +14,25 @@ Wtyczka działa na stronach list i szczegółów ofert: filtruje po **nazwie pra
 
 ---
 
-## Instalacja w Chrome (najszybsza)
+## Instalacja w Chrome (zalecane)
 
-Dla użytkowników, którzy chcą tylko korzystać z wtyczki:
+1. Otwórz **[najnowszy Release](https://github.com/tomaszs/bezposrednikow/releases/latest)**.
+2. Pobierz plik **`bezposrednikow-v*.zip`** z sekcji *Assets*.
+3. Rozpakuj zip do dowolnego folderu (np. `bezposrednikow`).
+4. Wejdź w przeglądarce na `chrome://extensions` (Edge: `edge://extensions`, Brave: `brave://extensions`).
+5. Włącz **Tryb dewelopera**.
+6. **Załaduj rozpakowane** → wskaż rozpakowany folder (w środku musi być `manifest.json`).
+7. Odwiedź LinkedIn Jobs, Just Join IT lub Pracuj.pl.
 
-1. **Pobierz kod** (klon repozytorium albo zip z GitHub → **Code → Download ZIP**).
-2. Rozpakuj, jeśli pobrałeś zip.
-3. Otwórz w przeglądarce: `chrome://extensions`  
-   (Edge: `edge://extensions`, Brave: `brave://extensions`).
-4. Włącz **Tryb dewelopera** (przełącznik w prawym górnym rogu).
-5. Kliknij **Załaduj rozpakowane** i wskaż folder **`extension`** wewnątrz repozytorium  
-   (w folderze musi leżeć plik `manifest.json`).
-6. Wejdź na LinkedIn Jobs, Just Join IT lub Pracuj.pl. Oferty od firm z listy znikną z widoku.
+**Popup wtyczki:** włącz/wyłącz filtrowanie, edycja listy, import/eksport.
 
-**Ikona wtyczki:** kliknij, aby włączyć lub wyłączyć filtrowanie, edytować listę firm lub import/eksport.
-
-**Aktualizacja:** pobierz najnowszą wersję z repozytorium, podmień folder `extension` lub całe repo, potem na `chrome://extensions` kliknij **Odśwież** przy Bezpośredników.
+**Aktualizacja:** pobierz nowy zip z Releases, rozpakuj nad stary folder (lub usuń stary i rozpakuj od nowa) → na `chrome://extensions` kliknij **Odśwież** przy Bezpośredników.
 
 ---
 
-## Instalacja z paczki zip (build)
+## Build z repozytorium (deweloperzy)
 
-Jeśli budujesz lub udostępniasz gotowy zip:
-
-### Wymagania
-
-- [Node.js](https://nodejs.org/) (LTS)
-- npm (dołączony do Node)
-
-### Kroki
+Wymaga [Node.js](https://nodejs.org/) (LTS).
 
 ```powershell
 git clone https://github.com/tomaszs/bezposrednikow.git
@@ -51,13 +41,9 @@ npm install
 npm run build:extension
 ```
 
-Powstaną:
+Powstaje `dist/bezposrednikow-v{wersja}.zip` oraz `dist/INSTALL.md`. Instalacja w Chrome jak wyżej (rozpakowany folder lub zip z builda).
 
-- `dist/bezposrednikow-v{wersja}/` – folder gotowy do załadowania
-- `dist/bezposrednikow-v{wersja}.zip` – archiwum do wysłania innym
-- `dist/INSTALL.md` – skrócona instrukcja instalacji z zipa
-
-**Z zipa w Chrome:** rozpakuj archiwum → `chrome://extensions` → Tryb dewelopera → **Załaduj rozpakowane** → wybierz rozpakowany folder (z `manifest.json`).
+Alternatywa bez builda: folder `extension/` → **Załaduj rozpakowane** w Chrome (tylko do własnych testów zgodnie z [LICENSE](LICENSE)).
 
 ---
 
@@ -71,31 +57,20 @@ Powstaną:
 
 ## Dla maintainerów
 
-Odświeżenie listy firm (opcjonalnie, wymaga Puppeteer):
-
 ```powershell
 $env:BUILD_PAGES=6; $env:BUILD_DETAIL_LIMIT=150; npm run build:blocklist
 npm run build:curated
 ```
 
-Następnie commit `extension/shared/curated-blocklist.js` i ewentualna aktualizacja `DEFAULT_BLOCKLIST_VERSION` w `defaults.js`.
+Testy: `npm run test:match`, `test:linkedin-dom`, `test:justjoin-dom`, `test:pracuj2-dom`.
 
-Testy lokalne:
-
-```powershell
-npm run test:match
-npm run test:linkedin-dom
-npm run test:justjoin-dom
-npm run test:pracuj2-dom
-```
-
-Zrzuty HTML do testów DOM trzymaj lokalnie w `przyklady/` (pliki `*.txt` są w `.gitignore`). Szczegóły: `przyklady/README.md`.
+Zrzuty HTML: `przyklady/` (lokalnie, `*.txt` w `.gitignore`). Więcej: `przyklady/README.md`, `CONTRIBUTING.md`.
 
 ---
 
 ## Licencja
 
-Kod jest publicznie widoczny, ale **nie jest wolny do użytku**. Warunki, zakazy (w tym wobec trenowania AI) i kary umowne opisuje wyłącznie plik **[LICENSE](LICENSE)**. Korzystanie bez **pisemnej zgody** autora jest zabronione.
+[LICENSE](LICENSE)
 
 ---
 

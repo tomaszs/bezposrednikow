@@ -1,6 +1,6 @@
 # Repozytorium publiczne: co commitujemy
 
-Kod jest publicznie dostępny do wglądu, ale **użytkowanie podlega restrykcyjnej licencji** w pliku `LICENSE` (brak zgody na forkowanie do własnego użytku, trenowanie AI itd.). Pull requesty są możliwe technicznie na GitHubie; merge oznacza przeniesienie praw do autora projektu na warunkach `LICENSE`.
+Kod jest publicznie dostępny do wglądu. Użytkownicy końcowi instalują wtyczkę z **Releases** na warunkach osobistego użytku w `LICENSE` (bez forków, redystrybucji, trenowania AI itd.). Pull requesty: merge oznacza przeniesienie praw do autora na warunkach `LICENSE`.
 
 ## W repozytorium
 

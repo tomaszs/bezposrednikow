@@ -2,89 +2,84 @@
 
 Copyright (c) 2026 tomasz smykowski. Wszelkie prawa zastrzeżone.
 
-Niniejszy dokument określa warunki dostępu do kodu źródłowego i innych materiałów
-związanych z oprogramowaniem „Bezpośredników” (dalej: „Oprogramowanie”), udostępnionych
-w repozytorium publicznym wyłącznie w celach informacyjnych i transparentności projektu.
+Niniejsza licencja dotyczy oprogramowania „Bezpośredników” oraz materiałów w repozytorium
+projektu (dalej łącznie: „Oprogramowanie”).
 
-## 1. Brak udzielenia licencji
+## 1. Dozwolone użycie osobiste
 
-O ile Autor nie wyrazi **pisemnej**, indywidualnej zgody, **nie udziela się żadnej licencji**
-ani uprawnienia do Oprogramowania lub jakiejkolwiek jego części. Dostęp do repozytorium
-**nie oznacza** zgody na użytkowanie, kopiowanie, modyfikację, dystrybucję, sublicencjonowanie,
-publikację ani tworzenie utworów zależnych.
+Możesz **wyłącznie na własny, niekomercyjny użytek osobisty**:
+
+1. Pobrać **oficjalną paczkę** (plik `.zip`) z sekcji **Releases** repozytorium
+   `tomaszs/bezposrednikow` na GitHubie i zainstalować ją w **własnej** przeglądarce
+   Chromium (Chrome, Edge, Brave itp.) zgodnie z instrukcją instalacji.
+2. **Uruchamiać** i korzystać z wtyczki do filtrowania ofert pracy dla siebie.
+3. **Konfigurować** listę firm w popupie (dodawanie, usuwanie, import/eksport JSON)
+   wyłącznie na potrzeby własnego użytku.
+
+Powyższe uprawnienie **nie** obejmuje udostępniania kopii innym osobom ani instalacji
+w imieniu podmiotu komercyjnego bez pisemnej zgody Autora.
 
 ## 2. Zakazane działania
 
-Bez pisemnej zgody Autora zabrania się w szczególności:
+Bez **pisemnej zgody** Autora zabrania się w szczególności:
 
-1. **Używania** Oprogramowania w jakimkolwiek celu (w tym prywatnym, komercyjnym,
-   edukacyjnym, badawczym lub administracyjnym), w tym instalacji i uruchamiania
-   poza wyraźnie dozwolonym przez Autora zakresem.
-2. **Kopiowania, modyfikowania, adaptowania, tłumaczenia** lub tworzenia utworów
-   zależnych na podstawie Oprogramowania lub jego części.
-3. **Dystrybucji, udostępniania, sprzedaży, wypożyczania, leasingu** lub innego
-   przekazywania Oprogramowania lub kopii w jakiejkolwiek formie.
-4. **Dekompilacji, deasemblacji, inżynierii wstecznej** lub obchodzenia zabezpieczeń,
-   o ile obowiązujące prawo nie stanowi inaczej w ścisłym zakresie wyłącznie wymaganym
-   przepisami bezwzględnie obowiązującymi (bez rozszerzania tego wyjątku).
-5. **Wykorzystania** treści repozytorium (kod, dokumentacja, zasoby, metadane,
-   struktury plików, listy, dane osadzone w kodzie) do:
-   - trenowania, dostrajania, ewaluacji lub testowania modeli sztucznej inteligencji,
-     systemów uczenia maszynowego, systemów generatywnych lub automatycznych asystentów;
-   - budowy, uzupełniania lub publikowania zbiorów danych (datasetów), korpusów
-     lub repozytoriów treści przeznaczonych do uczenia maszynowego;
-   - automatycznego pozyskiwania, indeksowania, „scrapingu” lub agregacji treści
-     w celach analitycznych, komercyjnych lub modelowych, także przez boty lub usługi
-     stron trzecich.
-6. **Przetwarzania** (w rozumieniu powszechnie stosowanym w IT i RODO) treści
-   repozytorium w sposób sprzeczny z niniejszą licencją, w tym przekazywania ich
-   podmiotom trzecim w celach wymienionych w pkt 5.
+1. **Tworzenia forków** repozytorium, mirrorów, klonów publicznych lub prywatnych
+   udostępnianych osobom trzecim w celu dystrybucji lub rozwoju odrębnej wersji.
+2. **Pobierania, kopiowania lub wykorzystywania** kodu źródłowego (w tym przez
+   `git clone`, „Download ZIP” całego repozytorium lub jego części) w celu
+   **innym niż** dozwolone użycie osobiste z pkt 1, w szczególności w celu
+   modyfikacji, publikacji, redystrybucji lub tworzenia utworów zależnych.
+3. **Modyfikowania, adaptowania, tłumaczenia** Oprogramowania oraz **udostępniania**
+   wyników osobom trzecim (w tym jako osobna wtyczka, sklep z rozszerzeniami,
+   paczka na dysku, link do pobrania).
+4. **Dystrybucji, sprzedaży, wypożyczania, sublicencjonowania** Oprogramowania
+   lub jakiejkolwiek jego kopii.
+5. **Użytkowania komercyjnego** (w tym wewnątrz firmy, w usłudze SaaS, jako
+   element produktu płatnego) bez pisemnej zgody Autora.
+6. **Wykorzystania** treści repozytorium (kod, dokumentacja, zasoby, listy firm,
+   struktura plików) do:
+   - trenowania, dostrajania, ewaluacji lub testowania modeli AI/ML, systemów
+     generatywnych lub automatycznych asystentów;
+   - budowy, uzupełniania lub publikowania datasetów, korpusów lub repozytoriów
+     treści pod uczenie maszynowe;
+   - automatycznego scrapingu, indeksowania lub agregacji treści repo w celach
+     modelowych, komercyjnych lub analitycznych (także botami i usługami stron trzecich).
 7. **Usuwania lub zatajania** informacji o prawach autorskich, niniejszej licencji
    lub oznaczeń własności.
+8. **Dekompilacji lub inżynierii wstecznej** poza zakresem bezwzględnie wymaganym
+   przepisami prawa (bez rozszerzania tego wyjątku).
 
-## 3. Dozwolone wyłącznie za pisemną zgodą
+Przeglądanie publicznej strony repozytorium na GitHubie **nie** uprawnia do działań
+z pkt 2–8.
 
-Jedynym sposobem legalnego użytkowania Oprogramowania jest **uprzednia pisemna zgoda Autora**
-(określająca zakres, czas, terytorium i ewentualną odpłatność). Brak odpowiedzi lub
-milczenie Autora **nie** stanowi zgody.
+## 3. Zgoda na inne formy użytkowania
+
+Użycie wykraczające poza pkt 1 (np. komercyjne, fork, dystrybucja zmodyfikowanej wersji)
+wymaga **uprzedniej pisemnej zgody** Autora. Brak odpowiedzi Autora nie stanowi zgody.
 
 ## 4. Kara umowna
 
-Za każde **pojedyncze naruszenie** któregokolwiek z postanowień niniejszej licencji (w tym
-każde odrębne faktyczne wykorzystanie, kopię, dystrybucję, przetwarzanie do uczenia maszynowego
-lub inne działanie sprzeczne z Licencją) naruszający zapłaci Autorowi **karę umowną
-w wysokości 5 000 (pięć tysięcy) dolarów amerykańskich (USD)**.
-
-Kara umowna jest należna:
-- za każde naruszenie odrębnie (np. każdy odrębny przypadek wykorzystania treści do trenowania
-  modelu, każda odrębna dystrybucja kopii),
-- niezależnie od tego, czy Autor poniósł szkodę,
-- bez uszczerbku dla prawa Autora do dochodzenia odszkodowania przewyższającego wysokość kary
-  umownej oraz innych roszczeń przewidzianych prawem.
-
-Strony ustalają, że wysokość kary umownej odzwierciedla przewidywalny charakter szkody
-i ma charakter dyscyplinujący. Naruszający, powołując się na przepisy prawa, może żądać
-ustalenia odpowiedniości kary wyłącznie w granicach dopuszczalnych przepisami bezwzględnie
-obowiązującymi.
+Za każde **pojedyncze naruszenie** postanowień sekcji 2 (w tym odrębny fork, odrębna
+redystrybucja, odrębne wykorzystanie treści do trenowania modelu) naruszający zapłaci
+Autorowi **karę umowną 5 000 (pięć tysięcy) USD**, za każde takie naruszenie osobno,
+niezależnie od szkody, z zastrzeżeniem prawa Autora do dochodzenia pełnego odszkodowania
+oraz innych roszczeń.
 
 ## 5. Postanowienia ogólne
 
-Oprogramowanie jest udostępniane „tak jak jest”, bez jakiejkolwiek gwarancji. Autor nie
-ponosi odpowiedzialności za szkody wynikłe z prób użytkowania bez zgody.
+Oprogramowanie jest udostępniane „tak jak jest”, bez gwarancji. Autor nie ponosi
+odpowiedzialności za szkody wynikłe z dozwolonego użycia osobistego poza granicami
+obowiązującego prawa.
 
-W sprawach nieuregulowanych stosuje się prawo właściwe dla Autora. Właściwe są sądy
-wg miejsca zamieszkania / siedziby Autora, o ile bezwzględnie obowiązujące przepisy
-nie stanowią inaczej.
+W sprawach nieuregulowanych stosuje się prawo właściwe dla Autora.
 
 ## 6. Kontakt
 
-W celu uzyskania pisemnej zgody na użytkowanie skontaktuj się z Autorem przez kanały
-publicznie podane w profilu GitHub użytkownika **tomaszs** lub w repozytorium projektu
-(sekcja About / Issues), o ile Autor wskaże tam dedykowany adres kontaktowy.
+W sprawie zgód wykraczających poza użytek osobisty: profil GitHub **tomaszs** lub
+Issues w repozytorium projektu.
 
 ---
 
-**Akceptacja:** Pobranie, klonowanie, przeglądanie, kopiowanie lub jakiekolwiek inne
-działanie wobec Oprogramowania lub treści repozytorium oznacza, że podmiot działający
-w pełni zapoznał się z niniejszą licencją i **bez zastrzeżeń ją akceptuje**. W razie
-braku akceptacji należy niezwłocznie zaprzestać korzystania i usunąć wszelkie kopie.
+Instalując lub korzystając z Oprogramowania w sposób dozwolony w pkt 1, akceptujesz
+niniejszą licencję. W razie braku akceptacji nie instaluj wtyczki i nie korzystaj
+z Oprogramowania.

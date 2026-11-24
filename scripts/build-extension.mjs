@@ -62,7 +62,7 @@ const installMd = `# Instalacja Bezpośredników v${version}
 
 ## Chrome / Brave / Edge (Chromium)
 
-1. Pobierz plik \`${outName}.zip\` z folderu \`dist/\`.
+1. Pobierz \`${outName}.zip\` z [Releases na GitHubie](https://github.com/tomaszs/bezposrednikow/releases/latest) (sekcja Assets) albo z folderu \`dist/\` po buildzie.
 2. Rozpakuj zip do dowolnego folderu (np. \`bezposrednikow\`).
 3. Otwórz \`chrome://extensions\` (w Edge: \`edge://extensions\`).
 4. Włącz **Tryb dewelopera**.
