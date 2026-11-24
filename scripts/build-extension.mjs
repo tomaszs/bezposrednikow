@@ -60,19 +60,26 @@ writeZip();
 
 const installMd = `# Instalacja Bezpośredników v${version}
 
-## Chrome / Brave / Edge (Chromium)
+## Obsługiwane przeglądarki
+
+Manifest V3, instalacja **Załaduj rozpakowane**:
+
+- **Google Chrome** – \`chrome://extensions\`
+- **Microsoft Edge** – \`edge://extensions\`
+- **Brave** – \`brave://extensions\`
+- **Opera**, **Vivaldi** i inne **Chromium** z obsługą MV3 – jak w Chrome
+
+**Nieobsługiwane na razie:** Firefox, Safari.
+
+## Kroki instalacji
 
 1. Pobierz \`${outName}.zip\` z [Releases na GitHubie](https://github.com/tomaszs/bezposrednikow/releases/latest) (sekcja Assets) albo z folderu \`dist/\` po buildzie.
 2. Rozpakuj zip do dowolnego folderu (np. \`bezposrednikow\`).
-3. Otwórz \`chrome://extensions\` (w Edge: \`edge://extensions\`).
+3. Otwórz stronę rozszerzeń swojej przeglądarki (np. \`chrome://extensions\`, \`edge://extensions\`).
 4. Włącz **Tryb dewelopera**.
 5. Kliknij **Załaduj rozpakowane** i wskaż rozpakowany folder (w środku musi być \`manifest.json\`).
 
-Aktualizacja: pobierz nowy zip, rozpakuj **nad** stary folder (lub usuń stary i rozpakuj od nowa), potem na \`chrome://extensions\` kliknij **Odśwież** przy wtyczce.
-
-## Firefox
-
-Ta wersja jest pod Chromium (Manifest V3). Firefox wymaga osobnego pakietu.
+Aktualizacja: pobierz nowy zip, rozpakuj **nad** stary folder (lub usuń stary i rozpakuj od nowa), potem na stronie rozszerzeń kliknij **Odśwież** przy wtyczce.
 `;
 
 writeFileSync(path.join(distDir, 'INSTALL.md'), installMd, 'utf8');

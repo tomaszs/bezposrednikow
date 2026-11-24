@@ -12,9 +12,22 @@ Czy masz problem znaleźć oferty pracy, ponieważ portale są zasypane ogłosze
 
 Wtyczka działa na stronach list i szczegółów ofert: filtruje po **nazwie pracodawcy**, bez skanowania treści ogłoszeń ani stron www firm.
 
+**Obsługiwane przeglądarki**
+
+Wtyczka jest pod **Manifest V3** i instaluje się trybem **Załaduj rozpakowane** w przeglądarkach **Chromium**:
+
+| Przeglądarka | Strona rozszerzeń | Uwagi |
+|--------------|-------------------|--------|
+| [Google Chrome](https://www.google.com/chrome/) | `chrome://extensions` | zalecana |
+| [Microsoft Edge](https://www.microsoft.com/edge) | `edge://extensions` | pełne wsparcie |
+| [Brave](https://brave.com/) | `brave://extensions` | pełne wsparcie |
+| [Opera](https://www.opera.com/), [Vivaldi](https://vivaldi.com/) i inne Chromium | zwykle `chrome://extensions` lub menu rozszerzeń | działa, jeśli przeglądarka obsługuje MV3 i „load unpacked” |
+
+**Nieobsługiwane na razie:** [Mozilla Firefox](https://www.mozilla.org/firefox/) (brak gotowego pakietu), Safari (wymaga osobnej wersji pod Apple).
+
 ---
 
-## Instalacja w Chrome (zalecane)
+## Instalacja (zalecane)
 
 1. Otwórz **[najnowszy Release](https://github.com/tomaszs/bezposrednikow/releases/latest)**.
 2. Pobierz plik **`bezposrednikow-v*.zip`** z sekcji *Assets*.
@@ -71,9 +84,3 @@ Zrzuty HTML: `przyklady/` (lokalnie, `*.txt` w `.gitignore`). Więcej: `przyklad
 ## Licencja
 
 [LICENSE](LICENSE)
-
----
-
-## Firefox
-
-Obecna wersja jest pod Chromium (Manifest V3). Firefox wymaga osobnego pakietu.
